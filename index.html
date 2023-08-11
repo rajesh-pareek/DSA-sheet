@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>DISJECTA MEMBRA RTU</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+    <!-- Font Awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+    <!-- Bootstrap Scripts -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="leetcode.css">
+    <link rel="icon" href="ninja.svg" type="image/x-icon">
+</head>
+
+<body>
+    <div class="conatiner">
+        <nav class="navbar  navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href=""
+                style="font-family: 'Caveat', cursive; color:rgb(229, 228, 228); font-weight:bold;">DSA-SHEET<img
+                    width="10px"><img src="ninja.svg" height="30px" width="30px" style="filter: invert(1);"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#array">Array</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#math">Mathematics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#bit">Bit Manipulation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#two-pointer">Two Pointer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#string">String</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#b-search">Binary Search</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#stack">Stack</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hash">HashTable</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#heap">Heaps</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tree">Trees</a>
+                    </li>
+
+
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="container">
+        <h1 class="heading" id="array">Arrays</h1>
+        <ol class="gradient-list">
+            <li class="list-item"><a target="_blank" href="https://leetcode.com/problems/two-sum/">Two Sum</a></li>
+            <li class="list-item"><a target="_blank"
+                    href="https://leetcode.com/problems/remove-duplicates-from-sorted-array/">Remove
+                    Duplicates from Sorted Array</a></li>
+            <li class="list-item"><a target="_blank" href="https://leetcode.com/problems/remove-element/">Remove
+                    Element</a></li>
+            <li class="list-item"><a target="_blank" href="https://leetcode.com/problems/maximum-subarray/">Maximum
+                    Subarray (Kadane's
+                    Algo)</a></li>
+            <li class="list-item"><a target="_blank" href="https://leetcode.com/problems/search-insert-position/">Search
+                    Insert
+                    Position</a></li>
+            <li class="list-item"><a target="_blank" href="https://leetcode.com/problems/plus-one/">Plus One</a></li>
+            <li class="list-item"><a target="_blank" href="https://leetcode.com/problems/merge-sorted-array/">Merge
+                    Sorted Array</a>
+            </li>
+            <li class="list-item"><a target="_blank"
+                    href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock/">Best Time to
+                    Buy and Sell Stock</a></li>
+            <li class="list-item"><a target="_blank"
+                    href="https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/">Two Sum II -
+                    Input array is sorted</a></li>
+            <li class="list-item"><a target="_blank" href="https://leetcode.com/problems/majority-element/">Majority
+                    Element</a></li>
+        </ol>
+    </div>
+    <div class="container">
+        <h1 class="heading"  id="math">Mathematics</h1>
+        <ol class="gradient-list">
+            <li class="list-item"><a target="_blank" href="https://leetcode.com/problems/reverse-integer/">Reverse
+                    Integer</a></li>
+            <li class="list-item"><a target="_blank" href="https://leetcode.com/problems/palindrome-number/">Palindrome
+                    Number</a></li>
+            <li class="list-item"><a target="_blank" href="https://leetcode.com/problems/sqrtx/">Sqrt(x)</a></li>
+            <li class="list-item"><a target="_blank"
+                    href="https://leetcode.com/problems/excel-sheet-column-title/">Excel Sheet Column
+                    Title</a></li>
+            <li class="list-item"><a target="_blank"
+                    href="https://leetcode.com/problems/factorial-trailing-zeroes/">Factorial Trailing
+                    Zeroes</a></li>
+            <li class="list-item"><a target="_blank" href="https://leetcode.com/problems/happy-number/">Happy Number</a>
+            </li>
+            <li class="list-item"><a target="_blank" href="https://leetcode.com/problems/count-primes/">Count Primes</a>
+            </li>
+            <li class="list-item"><a target="_blank" href="https://leetcode.com/problems/power-of-two/">Power of Two</a>
+            </li>
+            <li class="list-item"><a target="_blank" href="https://leetcode.com/problems/add-digits/">Add Digits</a>
+            </li>
+            <li class="list-item"><a target="_blank"
+                    href="https://leetcode.com/problems/excel-sheet-column-number/">Excel Sheet Column
+                    Number</a></li>
+        </ol>
+    </div>
+
+    <div class="container">
+        <h1 class="heading"  id="bit">BitManipulation</h1>
+        <ol class="gradient-list">
+            <li class="list-item"><a target="_blank" href="https://leetcode.com/problems/add-two-numbers/">Add Two Numbers</a></li>
+    <li class="list-item"><a target="_blank" href="https://leetcode.com/problems/reverse-linked-list/">Reverse Linked List</a></li>
+    <li class="list-item"><a target="_blank" href="https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/">Convert Binary Number in a Linked List to Integer</a></li>
+    <li class="list-item"><a target="_blank" href="https://leetcode.com/problems/remove-linked-list-elements/">Remove Linked List Elements</a></li>
+    <li class="list-item"><a target="_blank" href="https://leetcode.com/problems/middle-of-the-linked-list/">Middle of the Linked List</a></li>
+    <li class="list-item"><a target="_blank" href="https://leetcode.com/problems/delete-node-in-a-linked-list/">Delete Node in a Linked List</a></li>
+    <li class="list-item"><a target="_blank" href="https://leetcode.com/problems/intersection-of-two-linked-lists/">Intersection of Two Linked Lists</a></li>
+    <li class="list-item"><a target="_blank" href="https://leetcode.com/problems/remove-duplicates-from-sorted-list/">Remove Duplicates from Sorted List</a></li>
+    <li class="list-item"><a target="_blank" href="https://leetcode.com/problems/merge-two-sorted-lists/">Merge Two Sorted Lists</a></li>
+    <li class="list-item"><a target="_blank" href="https://leetcode.com/problems/linked-list-cycle/">Linked List Cycle</a></li>
+
+        </ol>
+    </div>
+
+    <div class="container">
+        <h1 class="heading" id="two-pointer">Two Pointer</h1>
+        <ol class="gradient-list">
+            
+                <li class="list-item"><a target="_blank" href="https://leetcode.com/problems/roman-to-integer/">Roman to Integer</a></li>
+                <li class="list-item"><a target="_blank" href="https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/">Find the Index of the First Occurrence in a String</a></li>
+                <li class="list-item"><a target="_blank" href="https://leetcode.com/problems/valid-palindrome/">Valid Palindrome</a></li>
+                <li class="list-item"><a target="_blank" href="https://leetcode.com/problems/move-zeroes/">Move Zeroes</a></li>
+                <li class="list-item"><a target="_blank" href="https://leetcode.com/problems/reverse-string/">Reverse String</a></li>
+                <li class="list-item"><a target="_blank" href="https://leetcode.com/problems/squares-of-a-sorted-array/">Squares of a Sorted Array</a></li>
+                <li class="list-item"><a target="_blank" href="https://leetcode.com/problems/long-pressed-name/">Long Pressed Name</a></li>
+                <li class="list-item"><a target="_blank" href="https://leetcode.com/problems/backspace-string-compare/">Backspace String Compare</a></li>
+                <li class="list-item"><a target="_blank" href="https://leetcode.com/problems/intersection-of-two-arrays/">Intersection of Two Arrays</a></li>
+                <li class="list-item"><a target="_blank" href="https://leetcode.com/problems/intersection-of-two-arrays-ii/">Intersection of Two Arrays II</a></li>
+        
+        </ol>
+    </div>
+
+    <div class="container">
+        <h1 class="heading" id="string">String</h1>
+        <ol class="gradient-list">
+         <li class="list-item"><a  href="https://leetcode.com/problems/defanging-an-ip-address/" target="_blank">Defanging Ip Address</a></li>
+         <li class="list-item"><a  href="https://leetcode.com/problems/consecutive-characters/" target="_blank">Consecutive Characters</a></li>
+         <li class="list-item"><a  href="https://leetcode.com/problems/robot-return-to-origin/" target="_blank">Robot Return To Origin</a></li>
+         <li class="list-item"><a  href="https://leetcode.com/problems/to-lower-case/" target="_blank">To Lower Case</a></li>
+         <li class="list-item"><a  href="https://leetcode.com/problems/split-a-string-in-balanced-strings/" target="_blank">Split String In Balanced Strings</a></li>
+         <li class="list-item"><a  href="https://leetcode.com/problems/maximum-number-of-balloons/" target="_blank">MAximum Number Of Baloon</a></li>
+         <li class="list-item"><a  href="https://leetcode.com/problems/length-of-last-word/" target="_blank">Length Of Last Word</a></li>
+         <li class="list-item"><a  href="https://leetcode.com/problems/valid-palindrome-ii/" target="_blank">Valid Palindrome</a></li>
+         <li class="list-item"><a  href="https://leetcode.com/problems/goat-latin/ (brain Storming)" target="_blank">Goat Latin</a></li>
+         <li class="list-item"><a  href="https://leetcode.com/problems/reverse-words-in-a-string-iii/" target="_blank">Reverse Word In String</a></li>
+
+        </ol>
+    </div>
+
+    <div class="container">
+        <h1 class="heading"  id="b-search">Binary Search</h1>
+        <ol class="gradient-list">
+         <li class="list-item"><a  href="https://leetcode.com/problems/search-a-2d-matrix-ii/" target="_blank">Search In 2D MAtrix</a></li>
+         <li class="list-item"><a  href="https://leetcode.com/problems/powx-n/" target="_blank">Powx-N</a></li>
+         <li class="list-item"><a  href="https://leetcode.com/problems/valid-perfect-square/" target="_blank">Valid Perfect Square</a></li>
+         <li class="list-item"><a  href="https://leetcode.com/problems/guess-number-higher-or-lower/" target="_blank">Guess-Number-Higher-Or-Lower</a></li>
+         <li class="list-item"><a  href="https://leetcode.com/problems/is-subsequence/" target="_blank">Is-Subsequence</a></li>
+         <li class="list-item"><a  href="https://leetcode.com/problems/first-bad-version/" target="_blank">First Bad Version</a></li>
+         <li class="list-item"><a  href="https://leetcode.com/problems/arranging-coins/" target="_blank">Arranging Coins</a></li>
+         <li class="list-item"><a  href="https://leetcode.com/problems/binary-search/" target="_blank">Binary Search</a></li>
+         <li class="list-item"><a  href="https://leetcode.com/problems/find-smallest-letter-greater-than-target/" target="_blank">find Smallest Letter Greater Than Target</a></li>
+         <li class="list-item"><a  href="https://leetcode.com/problems/peak-index-in-a-mountain-array/" target="_blank">Peak Of Index In Mountain Array</a></li>
+
+        </ol>
+    </div>
+
+    <div class="container">
+        <h1 class="heading"  id="stack">Stack</h1>
+        <ol class="gradient-list">
+          
+            
+       <li class="list-item"><a href="https://leetcode.com/problems/remove-outermost-parentheses/" target="_blank">Remove_outerMost Parenthesis</a></li>
+       <li class="list-item"><a href="https://leetcode.com/problems/build-an-array-with-stack-operations/" target="_blank">Build An Array With Stack Operations</a></li>
+       <li class="list-item"><a href="https://leetcode.com/problems/backspace-string-compare/" target="_blank">BackSpace String Compare</a></li>
+       <li class="list-item"><a href="https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/" target="_blank">Remove All Adjacent Duplicates</a></li>
+       <li class="list-item"><a href="https://leetcode.com/problems/baseball-game/submissions/" target="_blank">Baseball Submissions</a></li>
+       <li class="list-item"><a href="https://leetcode.com/problems/next-greater-element-i/" target="_blank">Next-Greater Element</a></li>
+       <li class="list-item"><a href="https://leetcode.com/problems/implement-queue-using-stacks/" target="_blank">Implement Queue Using Stack</a></li>
+       <li class="list-item"><a href="https://leetcode.com/problems/implement-stack-using-queues/" target="_blank">Implement Stack Using Queue</a></li>
+       <li class="list-item"><a href="https://leetcode.com/problems/min-stack/" target="_blank">Min-Stack</a></li>
+       <li class="list-item"><a href="https://leetcode.com/problems/valid-parentheses/" target="_blank">Valid-Parenthesis</a></li>
+        </ol>
+    </div>
+
+    <div class="container">
+        <h1 class="heading"  id="hash">Hashtable</h1>
+        <ol class="gradient-list">
+          
+            
+       <li class="list-item"><a href="https://leetcode.com/problems/jewels-and-stones/" target="_blank">Jewels And Stones</a></li>
+       <li class="list-item"><a href="https://leetcode.com/problems/n-repeated-element-in-size-2n-array/" target="_blank">N-Repeated Element In Size 2n Array</a></li>
+       <li class="list-item"><a href="https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/" target="_blank">find-words-that-can-be-formed-by-characters</a></li>
+       <li class="list-item"><a href="https://leetcode.com/problems/daily-temperatures/" target="_blank">Daily Temperatures</a></li>
+       <li class="list-item"><a href="https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/" target="_blank">Numbers Smaller Than Current</a></li>
+       <li class="list-item"><a href="https://leetcode.com/problems/single-number/" target="_blank">Single Number</a></li>
+       <li class="list-item"><a href="https://leetcode.com/problems/contains-duplicate/" target="_blank">Contains Duplicate</a></li>
+       <li class="list-item"><a href="https://leetcode.com/problems/valid-anagram/" target="_blank">Valid-Anagram</a></li>
+       <li class="list-item"><a href="https://leetcode.com/problems/contains-duplicate-ii/" target="_blank">Contain-Duplicate</a></li>
+       <li class="list-item"><a href="https://leetcode.com/problems/find-the-difference/" target="_blank">Find-The Difference</a></li>
+        </ol>
+    </div>
+
+
+    
+    <div class="container">
+        <h1 class="heading"  id="heap">Heaps</h1>
+        <ol class="gradient-list">
+          
+       <li class="list-item"><a href="https://leetcode.com/problems/last-stone-weight/" target="_blank">Last Stone Weight</a></li>
+       <li class="list-item"><a href="https://leetcode.com/problems/kth-largest-element-in-a-stream/" target="_blank">Kth-Largest In Stream</a></li>
+       <li class="list-item"><a href="https://leetcode.com/problems/kth-largest-element-in-an-array/" target="_blank">Kth-Largest In Array</a></li>
+       <li class="list-item"><a href="https://leetcode.com/problems/find-median-from-data-stream/" target="_blank">Find Median From Datastream</a></li>
+        </ol>
+    </div>
+
+    <div class="container">
+        <h1 class="heading" id="tree">Tree</h1>
+        <ol class="gradient-list">
+          
+       <li class="list-item"><a href="https://leetcode.com/problems/range-sum-of-bst/" target="_blank">Last Stone Weight</a></li>
+       <li class="list-item"><a href="https://leetcode.com/problems/same-tree/" target="_blank">Kth-Largest In Stream</a></li>
+       <li class="list-item"><a href="https://leetcode.com/problems/symmetric-tree/" target="_blank">Kth-Largest In Array</a></li>
+       <li class="list-item"><a href="https://leetcode.com/problems/maximum-depth-of-binary-tree/" target="_blank">Find Median From Datastream</a></li>
+       <li class="list-item"><a href="https://leetcode.com/problems/search-in-a-binary-search-tree/" target="_blank">Last Stone Weight</a></li>    
+    </ol>
+    </div>
+    <footer id="footer">
+        <div class="container-fluid">
+            <a href="https://github.com/rajesh-pareek" target="_blank"><i class="social-icon fab fa-github"></i></a>
+
+            <a href="https://www.linkedin.com/in/rajesh-pareek/" target="_blank"><i class="social-icon fab fa-linkedin"
+                    aria-hidden="true"></i></a>
+            <a href="https://rajesh-999.onrender.com/" target="_blank"> <i class="social-icon fas fa-envelope"
+                    aria-idden="true"></i></a>
+            <a href="https://github.com/rajesh-pareek" target="_blank"><i class="social-icon fab fa-instagram"
+                    aria-hidden="true"></i></a>
+            <p class="last-one"><strong>Reject Comfort- </strong><span>Embrace Masculanity</span></p>
+            <p class="last-one">© Copyright Master-GPB</p>
+        </div>
+
+
+    </footer>
+</body>
+
+</html>
+
