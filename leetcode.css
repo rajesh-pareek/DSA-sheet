@@ -129,6 +129,9 @@ a:hover{
   color:crimson;
 }
 
+.nav-link:hover{
+  color:crimson !important;
+}
 .heading{
   color:crimson;
   font-size:35px;
