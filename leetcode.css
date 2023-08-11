@@ -99,7 +99,7 @@ ol.gradient-list > li + li {
 }
 
 body{
-  background-color:#333;
+  background-color:#111;
 }
 
 .list-item:hover{
@@ -108,11 +108,11 @@ body{
 .container{
   width:90%;
   margin:0 auto;
-  background-color:#3b3838;
+  background-color:#000;
   padding:10px;
   border-radius:10px;
   margin-top:30px;
-  box-shadow:0 0 3px 3px #fff;
+  box-shadow:0 0 3px 3px #c96363;
   margin-bottom:20px;
   
 }
@@ -120,6 +120,7 @@ a{
   text-decoration:none;
   color:#0e60ac;
   font-weight:bold;
+  font-family:'ubuntu',sans-serif;
   font-size:20px;
   
 }
@@ -129,26 +130,26 @@ a:hover{
 }
 
 .heading{
-  color:gold;
+  color:crimson;
   font-size:35px;
   font-weight: bold;
   text-align:center;
 }
 .heading:hover {
-  color:crimson;
+  
+  color:goldenrod;
 
 }
 
 
 
 #footer{
-  background-color: #333;
+  background-color: #111;
   text-align: center;
-  padding:5% 10%;
+  padding:5% 5%;
   margin: 0 !important;
   display:flex;
   justify-content: space-around;
-  
 }
 
 .last-one{
@@ -168,5 +169,42 @@ a:hover{
 .social-icon:hover{
   color:goldenrod;
 }
+
+
+
+/* here  */
+#scrollToTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  background-color: transparent;
+  background-image: url('sword.svg');
+  
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+nav{
+  background-color:#444;
+}
+#scrollToTopBtn img{
+    width:100%;
+    display: block;
+    
+}
+#scrollToTopBtn .arrow-up {
+  /* Styles for your arrow icon (if using an icon library or SVG) */
+  /* For example, you can use Font Awesome like this: */
+  /* font-family: "Font Awesome 5 Free"; */
+  /* content: "\f077"; */
+  
+}
+
+/*here */
 
 
